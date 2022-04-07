@@ -114,7 +114,8 @@ function Calculator() {
             }
         // }
         setCurrVal(result);
-
+        setState('RESULT');
+        setSubState('END');
     }
 
     // Code for UI
